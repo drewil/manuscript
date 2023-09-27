@@ -1,5 +1,78 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');</style>
+h1 {
+  font-family: IBM Plex Sans, sans-serif; "Arial";
+  font-style: bold;
+  font-size: 6px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 8px;
+}
 
-body{color: tomato;}
+h2 {
+  font-family: IBM Plex Sans, sans-serif; "Arial";
+  font-style: bold;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 21px;
+}
 
-h1{font-family: 'IBM Plex Sans', sans-serif;}
+h3 {
+  font-family: IBM Plex Sans, sans-serif; "Arial";
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.35);
+  text-align: left;
+  text-transform: titlecase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 18px;
+}
+
+h4 {
+  font-family: IBM Plex Mono; "Arial";
+  font-style: regular;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 32px;
+}
+
+p {
+  font-family: IBM Plex Serif, serif; "Arial";
+  font-style: regular;
+  font-size: 8px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.35);
+  text-align: left;
+  text-transform: titlecase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 16px;
+  text-indent: 24px;
+}
+
+footer {
+  font-family: IBM Plex Sans, sans-serif; "Arial";
+  font-style: italic;
+  font-size: 6px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 8px;
+}
