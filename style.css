@@ -1,78 +1,168 @@
-h1 {
-  font-family: IBM Plex Sans, sans-serif; "Arial";
+html {
+  background-color: #ffffff;
+}
+
+body {
+  margin: 96px 96px 96px 96px;
+}
+
+.header-top {
+  font-family: IBM Plex Sans, sans-serif; "Tahoma";
   font-style: bold;
-  font-size: 6px;
+  font-size: 12px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
   text-transform: uppercase;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  line-height: 8px;
-}
-
-h2 {
-  font-family: IBM Plex Sans, sans-serif; "Arial";
-  font-style: bold;
-  font-size: 12px;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 1);
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  line-height: 21px;
-}
-
-h3 {
-  font-family: IBM Plex Sans, sans-serif; "Arial";
-  font-style: italic;
-  font-size: 12px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.35);
-  text-align: left;
-  text-transform: titlecase;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  line-height: 18px;
-}
-
-h4 {
-  font-family: IBM Plex Mono; "Arial";
-  font-style: regular;
-  font-size: 24px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 1);
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  line-height: 32px;
-}
-
-p {
-  font-family: IBM Plex Serif, serif; "Arial";
-  font-style: regular;
-  font-size: 8px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.35);
-  text-align: left;
-  text-transform: titlecase;
   letter-spacing: 0px;
   word-spacing: 0px;
   line-height: 16px;
-  text-indent: 24px;
+  display: grid;
+  grid-template-columns: 33% 66%;
+}
+
+.header-left {
+  padding-right: 24px;
+}
+
+.header-right {
+  padding-left: 24px;
+}
+
+h1 {
+  font-family: IBM Plex Sans, sans-serif; "Tahoma";
+  font-style: bold;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 42px;
+  margin-top: 48px;
+}
+
+main {
+margin-top: 96px;
+}
+
+.main-1 {
+  margin-top: 96px;
+  display: grid;
+  grid-template-columns: 33% 66%;
+}
+
+.main-2 {
+  margin-top: 96px;
+}
+
+.main-3 {
+  margin-top: 96px;
+}
+
+p {
+  font-family: IBM Plex Serif, serif; "Tahoma";
+  font-style: regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.35);
+  text-align: left;
+  text-transform: titlecase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 28px;
+  text-indent: 0px;
+}
+
+.paragraph-left {
+  padding-right: 24px;
+}
+
+.paragraph-right {
+  padding-left: 24px;
+}
+
+.paragraph-top {
+  margin-top: 96px;
+}
+
+.paragraph-top-align {
+  display: grid;
+  grid-template-columns: 33% 66%;
+}
+
+.paragraph-bottom {
+  margin-top: 48px;
+}
+
+.paragraph-bottom-align {
+  display: grid;
+  grid-template-columns: 66% 33%;
+}
+
+.pullquote1 {
+  font-family: IBM Plex Mono; "Tahoma";
+  font-style: regular;
+  font-size: 48px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 62px;
+  margin-top: 96px;
+}
+
+.pullquote2 {
+  font-family: IBM Plex Sans, sans-serif; "Tahoma";
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.35);
+  text-align: left;
+  text-transform: titlecase;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 36px;
+  padding-right: 24px;
 }
 
 footer {
-  font-family: IBM Plex Sans, sans-serif; "Arial";
+  font-family: IBM Plex Sans, sans-serif; "Tahoma";
   font-style: italic;
-  font-size: 6px;
+  font-size: 12px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0px;
   word-spacing: 0px;
-  line-height: 8px;
+  line-height: 16px;
+  margin-top: 96px;
+}
+
+mark:hover {
+  color: rgba(255, 0, 0, 1);
+  transition: color 0.5 ease-in-out;
+  cursor: default;
+}
+
+mark:active {
+  transition: color 0.5 ease-in-out;
+}
+
+
+.span1 {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
+}
+
+.span2 {
+  display: inline-block;
+  position: relative;
+  top: 0%; bottom: 0%; left: 0%; right: 0%;
+  background: rgba(255, 255, 0, 0.5);
 }
